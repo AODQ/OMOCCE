@@ -1,12 +1,13 @@
 module OMOCCE.Character;
 import OMOCCE.Position;
-import OMOCCE.Entity;
+import OMOCCE.Entities.DisplayableEntity;
 
-class Character : public Entity {
-  char symbol;
-  immutable(char)* portrait;
-  Position position;
+class Character : DisplayableEntity {
 public:
+  this(uint _id, Position pos) {
+    super(_id, "", '@', pos);
+  }
+  /*
   void Create(ref string _name, char _symbol, ref string _portrait,
               ref Position _pos, uint _id) {
     name = _name.dup();
@@ -14,8 +15,6 @@ public:
     portrait = _portrait.ptr;
     position = _pos;
     id = _id;
-  }
+  }*/
 
-  int R_ID() { return id; }
-  
 }

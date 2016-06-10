@@ -1,9 +1,13 @@
-module OMOCCE.Entity;
+module OMOCCE.Entities.Entity;
 
 class Entity {
-  uint ID;
+protected:
+  uint id;
   string name;
 public:
-  this(uint _ID) { ID = _ID; name = ""; }
-  this(uint _ID, ref string _name) { ID = _ID; name = _name; }
+  this(uint _ID) { id = _ID; name = ""; }
+  this(uint _ID, ref string _name) { id = _ID; name = _name.dup(); }
+
+  string R_Name() { return name; }
+  uint R_ID() { return id; }
 }

@@ -17,6 +17,9 @@ public:
     }
     x = _x; y = _y; z = _z; location = _location;
   }
+  void Set(Position position) {
+    Set(position.x, position.y, position.z, position.location);
+  }
 
   ushort R_X() const { return x; }
   ushort R_Y() const { return y; }
