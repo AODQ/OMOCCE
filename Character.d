@@ -1,4 +1,4 @@
-module OMOCCE.Character;
+module OMOCCE.Entities.Character;
 import OMOCCE.Position;
 import OMOCCE.Entities.DisplayableEntity;
 

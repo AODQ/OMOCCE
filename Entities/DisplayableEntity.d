@@ -13,11 +13,11 @@ public:
        colour _sym_fg = colour.white, colour _sym_bg = colour.black,
        immutable(char)* _portrait = null) {
     super(_id, _name);
-    portrait = _portrait;
-    symbol = _symbol;
+    portrait  = _portrait;
+    symbol    = _symbol;
     symbol_bg = cast(ubyte)_sym_bg;
     symbol_fg = cast(ubyte)_sym_fg;
-    position = new Position(0, 0, 0, 0);
+    position  = new Position(0, 0, 0, 0);
     position.Set(_position);
   }
 

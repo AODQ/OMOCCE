@@ -205,9 +205,6 @@ void Character_Creation() {
 Print_Interface();
 import OMOCCE.LocalWorld;
 Print_Interface();
-LocalWorld lc = new LocalWorld("asdf");
-lc.Display_Map(0, 0);
-ConsoleUtil.Output_Portrait(Test_Portrait());
 Output_Dialogue(
 "Hello stranger, welcome to the fair lands of %9%Omonala%c%! " ~
 "I am but a figment of your imagination, for the time being at least. " ~

@@ -1,5 +1,5 @@
 module OMOCCE.LocalWorld;
-import OMOCCE.Character;
+import OMOCCE.Entities.Character;
 import OMOCCE.Entities.Entity;
 import OMOCCE.Entities.DisplayableEntity;
 import OMOCCE.Position;
@@ -27,13 +27,6 @@ public:
       entities[80][x] ~= new Wall(new Position(0, 0, 0, 0));
     }
     entities[44][17] ~= new Character(0, new Position(0, 0, 0, 0));
-  }
-
-  void Add_Local_Character(ref Character character) {
-    entities[character.R_Position().R_X()]
-            [character.R_Position().R_Y()] ~= character;
-  }
-  void Rem_Local_Character(ref Character character) {
   }
 
   void Display_Map(short px, short py) {
