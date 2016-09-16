@@ -1,6 +1,6 @@
 # OMOCCE
 
-A perma-death text rpg set on another planet with a rich, multilayered storyline, complex gameplay built with high risk high reward mechanics, an engaging political and economic system all being simulated. The game is not meant to be replayeable, it's a one-time experience.
+A perma-death tile-bases rpg set on another planet with a rich, multilayered storyline, complex gameplay built with high risk high reward mechanics, an engaging political and economic system all being simulated. The game is not meant to be replayeable, it's a one-time experience.
 
 Goals: 
  ) Simulated story that progresses based on player, ai, political and economical interaction (or lack thereof). This includes seemingly random events (such as death of any NPC under any circumstance)
@@ -11,7 +11,7 @@ Goals:
  ) A combat system designed on momentum, planning ahead, and reading your opponent's next move.
  ) No levelling system. You become proficient the more often you use a skill but lose that proficiency quickly over time. An importancr is played on gear, party members, and losing being a viable option.
  ) A party system that will allow members to manage their own gear, be commanded though unnecessar, and most importantly be a witness to your adventure. All of them have various expectations, emotions, etc and talking to them is more than just plot advancement.
-
-
+ ) Handcrafted AI with many parts left to simulation, each varies.
+ ) A morale system for all to follow. Even the intelligent mobs
 
  ) Hand made maps (and of course tools to create these)
