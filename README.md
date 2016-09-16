@@ -1,6 +1,9 @@
 # OMOCCE
 
-A perma-death tile-bases rpg set on another planet with a rich, multilayered storyline, complex gameplay built with high risk high reward mechanics, an engaging political and economic system all being simulated. The game is not meant to be replayeable, it's a one-time experience.
+A perma-death tile-bases rpg set on another planet with a rich, multilayered storyline, complex gameplay built with high risk high reward mechanics, an engaging political and economic system all being simulated. The game is not meant to be replayeable, it's a one-time experience
+
+Example of thr complexity of the game:
+ A travelling group of Eykin pass nearby a towne and hole up near a cave. A villager is travelling to this towne to sell some excess wheat he farmed. He spots the Eykin tracks (they are large and distinct compared to other mobs, but the trCks are too old to know how many are in the group) and decides they are close enough to warrant warning the towne guards. The towne guard sends a scout to report information and is killed along the way. After two days without the scout's return, the towne sends a large group to handle this. The tracks at this point have whithered which makes it hard to navigate, and by the time they arrive the cave had been abandoned. Reporting a failed expedition eith a casualty of one, the mayor of the Towne blames this on a man high in command of the guards and might try to get him deranked. Meanwhile, you are on the other side of the globe. or, maybe, you planted the tracks there, killed the scout and hid his body for malicious reasons.
 
 Goals: 
  ) Simulated story that progresses based on player, ai, political and economical interaction (or lack thereof). This includes seemingly random events (such as death of any NPC under any circumstance)
