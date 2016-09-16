@@ -7,8 +7,10 @@ Goals:
  ) Simulated political system for several faction. Communication takes place between factions via messengers (bird, man, etc), several behaviours between one faction can havr positive or negqtive effects.
  ) Simulated economic system where trade can occur among all individuals, most notabaly local or travelling merchants, adventurers with loot, or even the common with common goods.
  ) Simulation of all NPCs (or groups iff in a different map than player). Mobs will frequently reproduce and travel, inhabiting various locations. Townsfolk will perform their duties to get resources and try to live a comfortable life
-
-
+ ) Warfare with several factions fighting each other for political or economic reasons
+ ) A combat system designed on momentum, planning ahead, and reading your opponent's next move.
+ ) No levelling system. You become proficient the more often you use a skill but lose that proficiency quickly over time. An importancr is played on gear, party members, and losing being a viable option.
+ ) A party system that will allow members to manage their own gear, be commanded though unnecessar, and most importantly be a witness to your adventure. All of them have various expectations, emotions, etc and talking to them is more than just plot advancement.
 
 
 
