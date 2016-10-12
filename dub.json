@@ -4,5 +4,6 @@
 	"copyright": "Copyright © 2016, aod",
 	"authors": ["aod"],
 	"dependencies": {
+    "ncurses": "~master",
 	}
 }
