@@ -1,8 +1,7 @@
-OMOCCE A perma-death tile-bases rpg set on another planet with a rich,
+# OMOCCE
+A perma-death tile-bases rpg set on another planet with a rich,
 multilayered storyline, complex gameplay built with high risk high reward
 mechanics, and an engaging political and economic system.
-
-Story: todo (I have it all in my mind just have to write it out)
 
 Goals:
 
@@ -53,7 +52,7 @@ NPCs while anyone nearby can still observe depending on their volume.
 
 ) A time system that forces quick thinking
 
-#Example:
+# Example:
 
 A travelling group of Eykin pass nearby a towne and hole up near a cave. A
 villager is travelling to this towne to sell some excess wheat he farmed. He
@@ -68,3 +67,11 @@ casualty of one, the mayor of the Towne blames this on a man high in command of
 the guards and might try to get him deranked. Meanwhile, you are on the other
 side of the globe. or, maybe, you planted the tracks there, killed the scout and
 hid his body for malicious reasons.
+
+
+# Story:
+
+This section contains spoilers, though a lot of important pieces are omitted.
+
+You will arrive at an undetermined location. By arrive I mean, you are have
+arrived in another person's body. 
