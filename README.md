@@ -71,7 +71,5 @@ hid his body for malicious reasons.
 
 # Story:
 
-This section contains spoilers, though a lot of important pieces are omitted.
-
-You will arrive at an undetermined location. By arrive I mean, you are have
-arrived in another person's body. 
+(spoilers of course)
+https://docs.google.com/document/d/1ftimLB8N8vYhbuljTqLPNONDkToMGrVsZVLri4l7Nac
