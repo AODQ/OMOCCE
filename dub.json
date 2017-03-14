@@ -1,9 +1,9 @@
 {
 	"name": "omocce",
 	"description": "A minimal D application.",
-	"copyright": "Copyright © 2016, aod",
+	"copyright": "Copyright © 2017, aod",
 	"authors": ["aod"],
 	"dependencies": {
-    "ncurses": "~master",
+    "bearlibterminal": "~>1.4.1"
 	}
 }

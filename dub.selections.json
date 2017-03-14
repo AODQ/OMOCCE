@@ -1,6 +1,6 @@
 {
 	"fileVersion": 1,
 	"versions": {
-		"ncurses": "~master"
+		"bearlibterminal": "1.4.1"
 	}
 }
