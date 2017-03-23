@@ -23,21 +23,46 @@ void main() {
 
   import engine, window;
 
+  WindowInfo info = {
+    start_x : 0, start_y : 1,
+    end_x   : 80, end_y : 23,
+    layer   : 1, text_wrap : true,
+    alignment : Alignment.left
+  };
   Window[string] windows = [
-    "title" : Window("title", 0, 0, 80, 2, 0, false, false, Alignment.middle),
-    "description" : Window("description", 0, 1, 80, 22, 1, false, true),
-    "input" : Window("input", 0, 23, 80, 5, 2, false, false)
+    // "title" : new Window("title", 0, 0, 80, 2, 0, false, false, Alignment.middle),
+    "description" : new OutputLogWindow(info)
+    // "input" : new Window("input", 0, 23, 80, 5, 2, false, false)
   ];
 
-  Output ( windows["title"], new Om_String(
-    ".: Valley of Ter :."
-  ));
-  Output ( windows["description"], new Om_String(
-    `It's important to note that these (those three worrisome things) are not trends and that they've been in the making for far longer than twelve months. They are symptoms that are inextricably linked to the core nature of the Web as it exists within the greater socio-technological system we live under today that we call Surveillance Capitalism. Tim says we've "lost control of our personal data." This is not entirely accurate. We didn't lose control; it was stolen from us by Silicon Valley. It is stolen from you every day by people farmers; the Googles and the Facebooks of the world. It is stolen from you by an industry of data brokers, the publishing behavioural advertising industry ("adtech"), and a long tail of Silicon Valley startups hungry for an exit to one of the more established players or looking to compete with them to own a share of you. The elephants in the room -- Google and Facebook -- stand silently in the wings, unmentioned except as allies later on in the letter where they're portrayed trying to "combat the problem" of misinformation. Is it perhaps foolish to expect anything more when Google is one of the biggest contributors to recent web standards at the W3C and when Google and Facebook both help fund the Web Foundation? Let me state it plainly: Google and Facebook are not allies in our fight for an equitable future -- they are the enemy. These platform monopolies are factory farms for human beings; farming us for every gram of insight they can extract. If, as Tim states, the core challenge for the Web today is combating people farming, and if we know who the people farmers are, shouldn't we be strongly regulating them to curb their abuses? There's quite a lot of stuff put here but rest assured this is not the end of whatever this sentence is ill just keep typign until i hit the limit of the window so i can test various window stuff hopefully these dimensions work but i dont know maybe it will`
+  // Output ( windows["title"], new OMString(
+  //   ".: Valley of Ter :."
+  // ));
+  Output ( windows["description"], CreateOMString(
+    `Your conscious awakens
+ You are unable to see anything, you wonder if it is because your environment is pitch-black, or that you are blind. You aren't left to wonder about this for long because of the rancid stench of feces and a pungent smell of rotting meat. . . .
+The left side of you is engrossed by a blinding light, you cover your eyes with your hands and look in the opposite direction.
+  You uncover your hand from your face for a moment and see the faces of many decaying bodies, some of them are hanging limp, lifeless. The remaining are squinting their eyes but the shackles to their seats prevent them from moving their head or hands.
+..
+  Your eyes have adjusted to the light. You wonder if now is the right time to LOOK.
+(LOOK) Your eyes fill with a bright light and you feel as if you are now in a location that is different from before. You close your eyes.
+....
+(LOOK) You see a scorched battlefield in the middle of a vast field. Most of the sparse trees among some patches of blue grass is on fire, painting the bright blue sky with a hazy black smoke. Most of what was certainly once a beautiful plain is now a muddy landscape.
+  Several people dressed in thick metal armour are combatting each other a distance to the north. You can hear their clinging of their weapons along with their battlecries.
+  You can not see anything else.
+  You feel uneasy
+  .
+  A man in thick armour is running towards you from the north. You reckon you only have a few moments to decide on whether you want to wait for him or run. The thought passes your mind to try to get a better look at him.
+  (LOOK MAN)
+  You see a man in thick metallic armour adorned with several blue stripes. The armour covers his entire body, from his pointy boots to the thick blue scarf on his neck. He is not wearing a helmet. He has a thick facial structure, he would be rather handsome if it were not for the several scars covering his face.
+  He is waving his hands towards you. You can not make out any more details.
+  ...
+  You can hear the man in thick armour yelling, "Xen! Are you OK?"
+    `
   ));
 
-  Output ( windows["input"], new Om_String("--------------------------------------------------------------------------------\n>> Check Inventory"
-  ));
+  // Output ( windows["input"], new OMString("--------------------------------------------------------------------------------\n>> Check Inventory"
+  // ));
 
   terminal.refresh();
 
