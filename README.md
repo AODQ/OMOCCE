@@ -67,9 +67,3 @@ casualty of one, the mayor of the Towne blames this on a man high in command of
 the guards and might try to get him deranked. Meanwhile, you are on the other
 side of the globe. or, maybe, you planted the tracks there, killed the scout and
 hid his body for malicious reasons.
-
-
-# Story:
-
-(spoilers of course)
-https://docs.google.com/document/d/1ftimLB8N8vYhbuljTqLPNONDkToMGrVsZVLri4l7Nac
